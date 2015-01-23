@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% for post in paginator.posts %}
+<div class="article-wrapper">
+    {% if site.share_buttons %}
+    <article data-url="{{ post.url | prepend: site.baseurl | prepend: site.url }}" data-title="{{ post.title | append: ' | ' | append: site.title }}">
+    {% else %}
+    <article>
+    {% endif %}
+    {% include article-header.html page=post link=true %}
+        <section class="post-content">
+            {% assign excerpt_size = post.excerpt | size %}
+            {% assign content_size = post.content | size %}
+            {% if excerpt_size < content_size %}
+            {{ post.excerpt }}
+            <a class="btn" href="{{ post.url | prepend: site.baseurl }}">{{ site.str_read_more }}</a>
+            {% else %}
+            {{ post.content }}
+            {% endif %}
+        </section>
+    </article>
+</div>
+
+{% if forloop.last != true %}
+<hr/>
+{% endif %}
+{% endfor %}
+
+{% include paginator.html %}
