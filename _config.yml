@@ -85,7 +85,7 @@ include: ["_pages"]
 
 markdown: redcarpet
 redcarpet:
-  extensions: ["autolink", "no_intra_emphasis", "fenced_code_blocks", "strikethrough", "superscript", "with_toc_data", "tables"]
+  extensions: ["autolink", "hard_wrap", "fenced_code_blocks", "strikethrough", "superscript", "with_toc_data", "tables", "footnotes"]
 highlighter: pygments
 
 excerpt_separator: <!--more-->
