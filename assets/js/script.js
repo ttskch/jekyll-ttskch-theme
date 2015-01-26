@@ -20,6 +20,13 @@ $(function () {
     // center all images.
     $("article img").closest("p").css("text-align", "center");
 
+    // stick aside.
+    var topSpacing = $(".site-aside").css("padding-top").replace(/px/, "");
+    console.log(topSpacing);
+    $(".site-aside .inner").sticky({
+        topSpacing: parseInt(topSpacing)
+    });
+
     // social buttons.
     // @see https://github.com/creasty/minimal-sharer
     $(".minimal-sharer").each(function () {
