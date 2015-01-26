@@ -95,6 +95,7 @@
         background-color: rgba(#ddd, .1);
         overflow: auto;
         padding: 10px 15px;
+        line-height: 1em;
         border-radius: 3px;
         code {
             margin: 0;
@@ -123,7 +124,7 @@
                 }
                 a.tag {
                     font-weight: normal;
-                    font-size: 0.7em;
+                    font-size: 0.5em;
                     color: #999;
                 }
             }
