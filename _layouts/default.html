@@ -23,9 +23,15 @@
     <link rel="canonical" href="{{ url }}">
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
 
+    {% if page.eye_catch %}
+    {% assign ogp_image_url = page.eye_catch %}
+    {% else %}
+    {% assign ogp_image_url = site.ogp.image_url %}
+    {% endif %}
+
     <meta property="og:title" content="{{ title }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="{{ site.ogp.image_url }}" />
+    <meta property="og:image" content="{{ ogp_image_url }}" />
     <meta property="og:url" content="{{ url }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="fb:admins" content="{{ site.ogp.fb.admin }}" />

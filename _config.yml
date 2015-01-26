@@ -68,7 +68,7 @@ paginate_path: page/:num
 #
 share_buttons: false
 ogp:
-  image_url: /assets/img/ogp.png
+  image_url: http://localhost:4000/assets/img/ogp.png
   fb:
     admin: # facebook admin id
     app_id: # facebook application id
