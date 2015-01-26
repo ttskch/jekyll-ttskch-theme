@@ -17,6 +17,9 @@ $(function () {
         }
     });
 
+    // center all images.
+    $("article img").closest("p").css("text-align", "center");
+
     // social buttons.
     // @see https://github.com/creasty/minimal-sharer
     $(".minimal-sharer").each(function () {
