@@ -117,31 +117,33 @@
         float: left;
         header {
             margin-bottom: $margin;
-            h1 {
-                margin: 0;
-                &, a {
-                    color: $page-title-color;
+            .panel {
+                padding: 1em 1.5em;
+                background-color: rgba($page-title-color, .2);
+                h1 {
+                    margin: 0;
+                    &, a {
+                        color: $page-title-color;
+                    }
                 }
-                a.tag {
-                    font-weight: normal;
-                    font-size: 0.5em;
-                    color: #999;
+                ul.meta, ul.tags {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    li {
+                        display: inline-block;
+                        color: rgba($text-color, .5);
+                        font-size: 0.95em;
+                        margin-right: 0.5em;
+                    }
                 }
-            }
-            ul.meta {
-                list-style: none;
-                margin: 0;
-                padding: 0;
-                li {
-                    display: inline-block;
-                    color: rgba($text-color, .5);
-                    font-size: 0.95em;
-                    margin-right: 0.5em;
+                ul.meta {
+                    float: right;
                 }
-            }
-            ul.icons {
-                li {
-                    margin-right: 0;
+                ul.icons {
+                    li {
+                        margin-right: 0;
+                    }
                 }
             }
         }
@@ -175,8 +177,15 @@
         }
         article header {
             margin-bottom: 0;
-            h1 {
-                font-size: 1.5em;
+            .panel {
+                padding: 0;
+                background-color: $background-color;
+                h1 {
+                    font-size: 1.5em;
+                    a.tag {
+                        font-size: 0.7em;
+                    }
+                }
             }
         }
     }
@@ -184,7 +193,7 @@
     .minimal-sharer {
         padding: 0;
         margin: 0;
-        margin-top: 0.5em;
+        margin-top: 1em;
         float: right;
     }
 }

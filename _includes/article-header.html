@@ -1,48 +1,59 @@
 {% assign page = include.page %}
 
 <header>
-    <h1>
-        {% if page.title == '__search_results__' %}
-        {% assign title = site.str_search_results %}
-        {% else %}
-        {% assign title = page.title %}
-        {% endif %}
+    <div class="panel">
+        <h1>
+            {% if page.title == '__search_results__' %}
+            {% assign title = site.str_search_results %}
+            {% else %}
+            {% assign title = page.title %}
+            {% endif %}
 
-        {% if include.link %}
-        <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ title }}</a>
-        {% else %}
-        {{ title }}
-        {% endif %}
+            {% if include.link %}
+            <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ title }}</a>
+            {% else %}
+            {{ title }}
+            {% endif %}
+        </h1>
 
-        {% for tag in page.tags %}
-        <a class="tag" href="{{ '/search/?t=' | append: tag | prepend: site.baseurl }}">#{{ tag }}</a>
-        {% endfor %}
-    </h1>
+        <ul class="tags">
+            {% if page.tags %}
+            <li><i class="fa fa-tags"></i></li>
+            {% endif %}
+            {% for tag in page.tags %}
+            <li>
+                <a class="tag" href="{{ '/search/?t=' | append: tag | prepend: site.baseurl }}">#{{ tag }}</a>
+            </li>
+            {% endfor %}
+        </ul>
 
-    <ul class="meta">
-        {% if page.date %}
-        <li>
-            <i class="fa fa-calendar"></i>
-            {{ page.date | date: "%Y-%m-%d" }}
-        </li>
-        {% endif %}
+        <div class="clearfix">
+            <ul class="meta">
+                {% if page.date %}
+                <li>
+                    <i class="fa fa-calendar"></i>
+                    {{ page.date | date: "%Y-%m-%d" }}
+                </li>
+                {% endif %}
 
-        {% if page.author %}
-        <li>
-            <a href="{{ '/search/?a=' | append: page.author | prepend: site.baseurl }}">
-                <i class="fa fa-user"></i>
-                {{ page.author }}
-            </a>
-        </li>
-        {% if page.icons %}
-        <li>
-            <ul class="meta icons">
-                {% include icons.html icons=page.icons %}
+                {% if page.author %}
+                <li>
+                    <a href="{{ '/search/?a=' | append: page.author | prepend: site.baseurl }}">
+                        <i class="fa fa-user"></i>
+                        {{ page.author }}
+                    </a>
+                </li>
+                {% if page.icons %}
+                <li>
+                    <ul class="meta icons">
+                        {% include icons.html icons=page.icons %}
+                    </ul>
+                </li>
+                {% endif %}
+                {% endif %}
             </ul>
-        </li>
-        {% endif %}
-        {% endif %}
-    </ul>
+        </div>
+    </div>
 
     {% if site.share_buttons and include.share != false %}
     <div class="clearfix">
