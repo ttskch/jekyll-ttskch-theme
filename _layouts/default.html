@@ -89,8 +89,8 @@
             </ul>
             <hr class="with-no-margin margin-bottom"/>
 
-            <h1>{{ site.str_recent_posts }}</h1>
-            <div class="block">
+            <div class="block sticky">
+                <h1>{{ site.str_recent_posts }}</h1>
                 <ul>
                     {% assign posts = (site.posts | sort: 'date' | reverse) %}
                     {% for post in posts limit:site.recent_posts_num %}
