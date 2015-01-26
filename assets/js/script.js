@@ -18,7 +18,7 @@ $(function () {
     });
 
     // center all images.
-    $("article img").closest("p").css("text-align", "center");
+    $("article img:not(.emoji)").closest("p").css("text-align", "center");
 
     // stick aside.
     var topSpacing = $(".site-aside").css("padding-top").replace(/px/, "");
