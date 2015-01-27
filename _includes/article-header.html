@@ -4,6 +4,7 @@
     <div class="panel">
         <h1>
             {% if page.title == '__search_results__' %}
+            {% assign search_results = true %}
             {% assign title = site.str_search_results %}
             {% else %}
             {% assign title = page.title %}
@@ -62,7 +63,7 @@
     </div>
     {% endif %}
 
-    {% if page.eye_catch %}
+    {% if search_results != true and page.eye_catch %}
     <div class="eye-catch">
         <p>
             <img src="{{ page.eye_catch }}"/>
