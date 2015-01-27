@@ -134,12 +134,17 @@
                         color: rgba($text-color, .5);
                         font-size: 0.95em;
                         margin-right: 0.5em;
+                        &:last-child {
+                            margin-right: 0;
+                        }
                     }
                 }
                 ul.meta {
                     float: right;
                 }
                 ul.icons {
+                    margin: 0;
+                    padding: 0;
                     li {
                         margin-right: 0;
                     }
