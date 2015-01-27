@@ -196,8 +196,10 @@
 
     .minimal-sharer {
         padding: 0;
-        margin: 0;
-        margin-top: 1em;
+        margin: 1em 0;
         float: right;
+        li:last-child {
+            margin-right: 0;
+        }
     }
 }
