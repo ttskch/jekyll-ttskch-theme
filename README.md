@@ -5,10 +5,12 @@ A simple and customizable theme for Jekyll.
 ## Features
 
 * A lot of Markdown features
-* Tags page
-* Archives page
-* Search feature
+* Tags list page
+* Monthly Archives page
+* Search feature without any Jekyll plugins
 * `<!--more-->` tag feature
+* Sticky side nav
+* Responsive
 * OGP ready
 * Share buttons ready
 
@@ -21,4 +23,7 @@ A simple and customizable theme for Jekyll.
 
 ## Demo
 
-See [here](http://qckanemoto.github.io).
+You can see live demo at below:
+
+* http://qckanemoto.github.io
+* http://tech.quartetcom.co.jp
