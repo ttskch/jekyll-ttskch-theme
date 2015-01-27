@@ -1,0 +1,10 @@
+{% assign page = include.page %}
+
+{% capture url %}
+{% if page.canonical %}
+{{ page.canonical | prepend: site.baseurl | prepend: site.url }}
+{% else %}
+{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}
+{% endif %}
+{% endcapture %}
+{% assign url = url | strip_newlines | replace: ' ', '' %}

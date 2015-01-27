@@ -5,7 +5,7 @@
     {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
     {% endcapture %}
 
-    {% assign url = page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url %}
+    {% include page-url-resolver.html page=page %}
 
     {% capture description %}
     {% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}
