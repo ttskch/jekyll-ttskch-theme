@@ -22,7 +22,6 @@ $(function () {
 
     // stick aside.
     var topSpacing = $(".site-aside").css("padding-top").replace(/px/, "");
-    console.log(topSpacing);
     $(".site-aside .sticky").sticky({
         topSpacing: parseInt(topSpacing)
     });
