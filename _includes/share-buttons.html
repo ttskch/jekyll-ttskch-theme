@@ -1,0 +1,4 @@
+{% include page-url-resolver.html page=include.page %}
+<div class="share-buttons-wrapper">
+    <div class="share-buttons" data-url="{{ url }}" data-title="{{ include.page.title | append: ' | ' | append: site.title }}"></div>
+</div>

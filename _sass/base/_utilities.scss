@@ -28,15 +28,6 @@ a.btn:hover {
 }
 
 // clearfix.
-%clearfix {
-    &:before, &:after {
-        content: " ";
-        display: table;
-    }
-    &:after {
-        clear: both;
-    }
-}
 .clearfix {
     &:before, &:after {
         content: " ";

@@ -27,24 +27,12 @@ $(function () {
     });
 
     // social buttons.
-    // @see https://github.com/creasty/minimal-sharer
-    $(".minimal-sharer").each(function () {
-        var settings = {
-            buttons: {
-                'twitter': 'Tweet',
-                'facebook': 'Facebook',
-                'hatena': 'Hatena',
-                'gplus': '+1'
-            }
-        };
-        var url = $(this).closest("article").data("url");
-        var title = $(this).closest("article").data("title");
-        if (url) {
-            settings['url'] = url;
-        }
-        if (title) {
-            settings['title'] = title;
-        }
-        $(this).minimalSharer(settings);
+    $(".share-buttons").each(function () {
+        $(this).easySocialButtons({
+            url: $(this).data("url"),
+            pageTitle: $(this).data("title"),
+            orders: ["twitter", "hatebu", "facebook", "googleplus"],
+            waitCounter: '<span>取得中...</span>'
+        });
     });
 });

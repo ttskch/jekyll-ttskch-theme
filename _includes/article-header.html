@@ -51,12 +51,12 @@
     </div>
 
     {% if site.share_buttons and include.share != false %}
-    <div class="clearfix">
-        <ul class="minimal-sharer"></ul>
+    <div style="margin-top: 1em;">
+        {% include share-buttons.html page=page %}
     </div>
     {% endif %}
 
-    {% if include.eye_catch and page.eye_catch %}
+    {% if include.eye_catch != false and page.eye_catch %}
     <div class="eye-catch">
         <p>
             <img src="{{ page.eye_catch }}"/>

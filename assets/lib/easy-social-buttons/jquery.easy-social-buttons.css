@@ -1,0 +1,124 @@
+/* Easy Social Buttons */
+.easy-social-buttons-container .esb{
+	margin-right:8px;
+	line-height:1.5;
+}
+.esb{
+	font-family:Meiryo;
+	font-size:10px;
+	padding:2px;
+	display:inline-block;
+	text-decoration:none;
+	border-radius:2px;
+	background:#ddd;
+	color:#005588;
+}
+.esb a{
+	text-decoration:none;
+}
+.esb:hover{
+	background:#555;
+	color:#000;
+}
+.esb:hover .esb-label{
+	color:#fff;
+}
+.esb-label,
+.esb-counter{
+	padding:0 4px;
+	display:inline-block;
+	text-decoration:none;
+	text-align:center;
+}
+.esb-label:visited,
+.esb-label{
+	width:32px;
+	color:#000;
+}
+.esb:hover .esb-label:hover{
+	font-weight:bold;
+	color:#ffff00;
+}
+.esb-counter:visited,
+.esb-counter{
+	width:64px;
+	background:#eee;
+	color:#428bca;
+	color:#000;
+}
+.esb-counter:hover{
+	background:#ddd;
+}
+
+
+.esb-inverse .esb{
+	background:#555;
+}
+.esb-inverse .esb .esb-label{
+	color:#fff;
+}
+
+
+
+.esb-hatebu{
+	background:#2c6ebd;
+}
+.esb-hatebu:hover{
+	background:#0c4e9d;
+}
+.esb-hatebu .esb-label{
+	color:#fff;
+}
+.esb-hatebu .esb-label:hover{
+	color:#ffff00;
+	font-weight:bold;
+}
+
+
+
+
+.esb-twitter{
+	background:#33CCFF;
+}
+.esb-twitter:hover{
+	background:#13ACDF;
+}
+.esb-twitter .esb-label{
+	color:#fff;
+}
+.esb-twitter .esb-label:hover{
+	color:#ffff00;
+	font-weight:bold;
+}
+
+
+.esb-facebook{
+	background:#3B5998;
+}
+.esb-facebook:hover{
+	background:#1B3978;
+}
+.esb-facebook .esb-label{
+	color:#fff;
+}
+.esb-facebook .esb-label:hover{
+	color:#ffff00;
+	font-weight:bold;
+}
+
+
+.esb-googleplus{
+	background:#C63D2D;
+}
+.esb-googleplus:hover{
+	background:#A61D0D;
+}
+.esb-googleplus .esb-label{
+	color:#fff;
+}
+.esb-googleplus .esb-label:hover{
+	color:#ffff00;
+	font-weight:bold;
+}
+
+

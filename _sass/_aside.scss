@@ -46,7 +46,7 @@
     }
 
     ul.icons {
-        @extend %clearfix;
+        @extend .clearfix;
         list-style: none;
         li {
             border: none;

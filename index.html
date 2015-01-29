@@ -3,10 +3,9 @@ layout: default
 ---
 
 {% for post in paginator.posts %}
-{% include page-url-resolver.html page=post %}
 <div class="article-wrapper">
     {% if site.share_buttons %}
-    <article data-url="{{ url }}" data-title="{{ post.title | append: ' | ' | append: site.title }}">
+    <article>
     {% else %}
     <article>
     {% endif %}

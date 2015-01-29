@@ -50,7 +50,7 @@
 
     ul, ol {
         &.inline {
-            @extend %clearfix;
+            @extend .clearfix;
             list-style: none;
             padding-left: 0;
             li {
@@ -107,7 +107,7 @@
     }
 
     .article-wrapper {
-        @extend %clearfix;
+        @extend .clearfix;
         margin: $margin 0;
     }
 
@@ -194,12 +194,13 @@
         }
     }
 
-    .minimal-sharer {
-        padding: 0;
-        margin: 1em 0;
-        float: right;
-        li:last-child {
-            margin-right: 0;
+    .share-buttons-wrapper {
+        @extend .clearfix;
+        .easy-social-buttons-container {
+            float: right;
+            .esb:last-child {
+                margin-right: 0;
+            }
         }
     }
 }

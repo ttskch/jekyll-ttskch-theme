@@ -21,7 +21,7 @@ $side-padding: 10px;
 }
 
 .site-container {
-    @extend %clearfix;
+    @extend .clearfix;
     width: $site-max-width;
     margin: 0 auto;
     @media screen and (max-width: $site-max-width) {

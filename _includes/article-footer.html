@@ -1,7 +1,5 @@
-{% if site.share_buttons and include.share != false %}
 <footer>
-    <div class="clearfix">
-        <ul class="minimal-sharer"></ul>
-    </div>
+    {% if site.share_buttons and include.share != false %}
+    {% include share-buttons.html page=include.page %}
+    {% endif %}
 </footer>
-{% endif %}
