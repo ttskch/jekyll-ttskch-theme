@@ -9,6 +9,7 @@ A simple and customizable theme for Jekyll.
 * Monthly Archives page
 * Search feature without any Jekyll plugins
 * `<!--more-->` tag feature
+* Anchor links for each headings
 * Sticky side nav
 * Responsive
 * OGP ready
