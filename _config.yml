@@ -1,8 +1,8 @@
 #
 # Basic settings.
 #
-url: http://localhost:4000 # e.g. http://you.github.io
-baseurl: # e.g. /blog
+url: http://qckanemoto.github.io # or http://you.github.io
+baseurl: /jekyll-qck-theme # or ""
 title: Your name
 description: Some descriptions of yourself.
 avatar: /assets/img/ogp.png
@@ -69,13 +69,13 @@ paginate_path: page/:num
 #
 share_buttons: false
 ogp:
-  image_url: http://localhost:4000/assets/img/ogp.png
+  image_url: http://qckanemoto.github.io/jekyll-qck-theme/assets/img/ogp.png
   fb:
     admin: # facebook admin id
     app_id: # facebook application id
 
 #
-# Styles: "_sass/base/_variables.scss"
+# Styles: see "_sass/base/_variables.scss"
 #
 
 #
@@ -86,7 +86,7 @@ include: ["_pages"]
 
 markdown: redcarpet
 redcarpet:
-  extensions: ["autolink", "hard_wrap", "fenced_code_blocks", "strikethrough", "superscript", "with_toc_data", "tables", "footnotes"]
+  extensions: ["autolink", "fenced_code_blocks", "strikethrough", "superscript", "with_toc_data", "tables", "footnotes", "no_intra_emphasis"]
 highlighter: pygments
 
 excerpt_separator: <!--more-->

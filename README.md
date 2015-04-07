@@ -26,5 +26,4 @@ A simple and customizable theme for Jekyll.
 
 You can see live demo at below:
 
-* http://qckanemoto.github.io
-* http://tech.quartetcom.co.jp
+* http://qckanemoto.github.io/jekyll-qck-theme/

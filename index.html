@@ -15,7 +15,7 @@ layout: default
             {% assign content_size = post.content | size %}
             {% if excerpt_size < content_size %}
             {{ post.excerpt }}
-            <a class="btn" href="{{ url }}">{{ site.str_read_more }}</a>
+            <a class="btn" href="{{ post.url | prepend: site.baseurl }}">{{ site.str_read_more }}</a>
             {% else %}
             {{ post.content }}
             {% endif %}
