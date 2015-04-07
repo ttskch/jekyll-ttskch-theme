@@ -5,6 +5,14 @@
         a {
             color: $text-color;
         }
+        .header-link {
+            margin-left: 0.2em;
+            color: $link-color;
+            opacity: 0;
+        }
+        &:hover .header-link {
+            opacity: 1;
+        }
     }
 
     h1 {

@@ -114,6 +114,10 @@
 <script src="{{ '/assets/lib/easy-social-buttons/jquery.easy-social-buttons.js' | prepend: site.baseurl }}"></script>
 <script src="{{ '/assets/js/script.js' | prepend: site.baseurl }}"></script>
 
+{% if page.id %}
+<script src="{{ '/assets/js/header-link.js' | prepend: site.baseurl }}"></script>
+{% endif %}
+
 {% if page.permalink == '/search/' %}
 <script src="{{ '/assets/js/search.js' | prepend: site.baseurl }}"></script>
 {% endif %}
