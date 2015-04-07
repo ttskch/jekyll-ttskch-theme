@@ -32,7 +32,7 @@ $(function () {
             url: $(this).data("url"),
             pageTitle: $(this).data("title"),
             orders: ["twitter", "hatebu", "facebook", "googleplus"],
-            waitCounter: '<span>取得中...</span>'
+            waitCounter: '<span>Wait...</span>'
         });
     });
 });
