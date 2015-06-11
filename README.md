@@ -5,6 +5,7 @@ A simple and customizable theme for Jekyll.
 ## Features
 
 * A lot of Markdown features
+* GitHub flavored emoji :+1:
 * Tags list page
 * Monthly Archives page
 * Search feature without any Jekyll plugins
