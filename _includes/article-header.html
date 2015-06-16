@@ -57,10 +57,8 @@
     {% endif %}
 
     {% if include.eye_catch != false and page.eye_catch %}
-    <div class="eye-catch">
-        <p>
-            <img src="{{ page.eye_catch }}"/>
-        </p>
-    </div>
+    <p style="text-align: center">
+        <img class="eye-catch" src="{{ page.eye_catch }}"/>
+    </p>
     {% endif %}
 </header>
