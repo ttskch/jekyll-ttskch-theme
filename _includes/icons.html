@@ -2,7 +2,7 @@
 
 {% if icons.rss %}
 <li>
-    <a href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
+    <a href="{{ '/feed.xml' | prepend: site.baseurl }}">
         <i class="fa fa-fw fa-rss"></i>
     </a>
 </li>
@@ -12,6 +12,14 @@
 <li>
     <a href="mailto:{{ icons.email }}">
         <i class="fa fa-fw fa-envelope"></i>
+    </a>
+</li>
+{% endif %}
+
+{% if icons.publickey %}
+<li>
+    <a href="{{ icons.publickey | prepend: site.baseurl }}">
+        <i class="fa fa-fw fa-lock"></i>
     </a>
 </li>
 {% endif %}
@@ -100,6 +108,14 @@
 <li>
     <a href="{{ icons.linkedin }}">
         <i class="fa fa-fw fa-linkedin"></i>
+    </a>
+</li>
+{% endif %}
+
+{% if icons.telegram %}
+<li>
+    <a href="https://telegram.me/{{ icons.telegram }}">
+        <i class="fa fa-fw fa-paper-plane"></i>
     </a>
 </li>
 {% endif %}

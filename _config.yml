@@ -14,6 +14,7 @@ avatar: /assets/img/ogp.png
 icons:
   rss: true
   email:
+  publickey: # /about
   github: qckanemoto
   bitbucket:
   twitter: qckanemoto
@@ -24,6 +25,7 @@ icons:
   dribbble:
   flickr:
   instagram:
+  telegram:
   linkedin:  # full URL
   pinterest:
   reddit:
