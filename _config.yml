@@ -2,6 +2,7 @@
 # Basic settings.
 #
 #url: http://qckanemoto.github.io # or http://you.github.io
+language: ja
 url: http://localhost:4000
 baseurl: /jekyll-qck-theme # or ""
 title: Your name
