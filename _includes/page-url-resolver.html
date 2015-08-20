@@ -1,7 +1,7 @@
 {% assign page = include.page %}
 
 {% if page.canonical %}
-{% assign url = page.canonical | prepend: site.baseurl | prepend: site.url %}
+{% assign url = page.canonical | prepend: site.baseurl %}
 {% else %}
-{% assign url = page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url %}
+{% assign url = page.url | replace: 'index.html', '' | prepend: site.baseurl %}
 {% endif %}
