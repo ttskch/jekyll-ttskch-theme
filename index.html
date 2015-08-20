@@ -4,11 +4,7 @@ layout: default
 
 {% for post in paginator.posts %}
 <div class="article-wrapper">
-    {% if site.share_buttons %}
     <article>
-    {% else %}
-    <article>
-    {% endif %}
     {% include article-header.html page=post link=true %}
         <section class="post-content">
             {% assign size = post.content | split: site.excerpt_separator | size %}
