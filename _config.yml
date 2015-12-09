@@ -1,9 +1,10 @@
 #
 # Basic settings.
 #
-#baseurl: http://localhost:4000
-#baseurl: http://qckanemoto.github.io
-baseurl: http://qckanemoto.github.io/jekyll-qck-theme
+# url: http://localhost:4000
+# baseurl: ""
+url: http://qckanemoto.github.io
+baseurl: /jekyll-qck-theme
 title: Your name
 description: Some descriptions of yourself.
 avatar: /assets/img/ogp.png
