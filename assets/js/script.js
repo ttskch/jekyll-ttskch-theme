@@ -31,14 +31,4 @@ $(function () {
     $(".site-aside .sticky").sticky({
         topSpacing: parseInt(topSpacing)
     });
-
-    // social buttons.
-    $(".share-buttons").each(function () {
-        $(this).easySocialButtons({
-            url: $(this).data("url"),
-            pageTitle: $(this).data("title"),
-            orders: ["twitter", "hatebu", "facebook", "googleplus"],
-            waitCounter: '<span>Wait...</span>'
-        });
-    });
 });
