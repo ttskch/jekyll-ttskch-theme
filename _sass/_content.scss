@@ -201,14 +201,4 @@
             }
         }
     }
-
-    .share-buttons-wrapper {
-        @extend .clearfix;
-        .easy-social-buttons-container {
-            float: right;
-            .esb:last-child {
-                margin-right: 0;
-            }
-        }
-    }
 }

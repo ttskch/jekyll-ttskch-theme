@@ -69,7 +69,10 @@ paginate_path: page/:num
 #
 # Social.
 #
-share_buttons: false
+share_buttons:
+  twitter: true
+  facebook: false   # needs ogp.fb.app_id
+  hatena: false
 ogp:
   image_url: http://qckanemoto.github.io/jekyll-qck-theme/assets/img/ogp.png
   fb:
