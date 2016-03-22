@@ -85,6 +85,7 @@ ogp:
 # Gems.
 #
 gems:
+  - jekyll-paginate
   - jemoji
 
 #
@@ -97,10 +98,10 @@ gems:
 
 include: ["_pages"]
 
-markdown: redcarpet
-redcarpet:
-  extensions: ["autolink", "fenced_code_blocks", "strikethrough", "superscript", "with_toc_data", "tables", "footnotes", "no_intra_emphasis"]
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
 
 excerpt_separator: <!--more-->
 
