@@ -99,9 +99,9 @@ gems:
 include: ["_pages"]
 
 markdown: kramdown
-highlighter: rouge
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
 
 excerpt_separator: <!--more-->
 
