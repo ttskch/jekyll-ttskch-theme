@@ -1,0 +1,140 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+import urllib2
+import re
+import sys
+
+DISKUZE = re.compile(r'\(\[http://lists.ubuntu.cz/pipermail/diskuze/[^ ]* [^\]]*diskuze\]\)')
+DISKUZE2 = re.compile(r'[; ]*\[http://lists.ubuntu.cz/pipermail/diskuze/[^ ]* [^\]]*diskuze\][; ]*')
+
+URL = 'http://wiki.l10n.cz/index.php?title=P%C5%99ekladatelsk%C3%BD_slovn%C3%ADk&action=raw'
+
+ITEMS = []
+
+def clean_target(target):
+    '''
+    Removes not useful things from translation
+
+    * links to discussions
+    * whitespace
+    '''
+    target = DISKUZE.sub('', target)
+    target = DISKUZE2.sub('', target)
+    return target.strip()
+
+def new_item(source, target):
+    '''
+    Stores new item in dictionary.
+    '''
+    for tgt in target:
+        # We skip not yet decided terms
+        if 'v diskuzi' in tgt or u'zatím nesjednoceno' in tgt:
+            return
+
+    # Cleanup translations
+    target = [clean_target(tgt) for tgt in target]
+
+    # Split clarification of source word
+    if '(' in source and source[-1] == ')':
+        source, extra = source.split('(', 1)
+        extra = extra.strip().rstrip(')').strip()
+    else:
+        extra = ''
+
+    source = source.strip()
+
+    # Store new term
+    ITEMS.append((source, extra, target))
+
+def process_dict():
+    '''
+    Downloads dictionary from wiki and processes words.
+    '''
+    source = ''
+    target = []
+
+    # Open URL
+    handle = urllib2.urlopen(URL)
+
+    for line in handle:
+        line = line.decode('utf-8')
+        if line[0] == ';':
+            # Source string
+            if len(source) > 0:
+                # Add new item if we had previous one
+                new_item(source, target)
+                source = ''
+                target = []
+            source = line[1:].strip()
+        elif line[0] == ':':
+            # Translation
+            if source == '':
+                continue
+            line = line[1:].strip()
+            # Skip notes
+            if line.startswith(u"''Poznámka:''") or line.startswith(u'Poznámka:'):
+                continue
+            if line[0] != '(':
+                target.append(line)
+        elif source != '':
+            # End of section/glossary, add word
+            new_item(source, target)
+            source = ''
+            target = []
+
+def write_tbx(name):
+    '''
+    Generates TBX file from dictionary.
+    '''
+    from translate.storage.tbx import tbxfile
+    store = tbxfile()
+
+    for source, extra, targets in ITEMS:
+        if extra != '':
+            source = '%s (%s)' % (source, extra)
+        for target in targets:
+            if target == '':
+                continue
+            unit = store.UnitClass(source)
+            unit.settarget(target, 'cs')
+            store.addunit(unit)
+
+    store.savefile(name)
+
+def write_tmx(name):
+    '''
+    Generates TMX file from dictionary.
+    '''
+    from translate.storage.tmx import tmxfile
+    store = tmxfile()
+
+    for source, extra, targets in ITEMS:
+        if extra != '':
+            source = '%s (%s)' % (source, extra)
+        for target in targets:
+            if target == '':
+                continue
+            unit = store.UnitClass(source)
+            unit.settarget(target, 'cs')
+            store.addunit(unit)
+
+    store.savefile(name)
+
+if __name__ == '__main__':
+    # Check params
+    if len(sys.argv) != 2:
+        print 'Usage: l10n-slovik [file.tbx/tmx]'
+        sys.exit(1)
+
+    # Download/process dict
+    process_dict()
+
+    # Stupid params handling to save dict
+    if 'tbx' in sys.argv[1]:
+        write_tbx(sys.argv[1])
+    elif 'tmx' in sys.argv[1]:
+        write_tmx(sys.argv[1])
+    else:
+        print 'Unkown format: %s' % sys.argv[1]
+        sys.exit(1)

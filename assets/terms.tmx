@@ -1,0 +1,2031 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit - po2tmx" creationtoolversion="1.7.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;u&gt;A&lt;/u&gt;bout (název aplikace)...</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>O &lt;u&gt;a&lt;/u&gt;plikaci (název)...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>addon / add-on</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>doplněk</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>address bar</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>adresní řádek</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>administrator</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>správce</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>administrate</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>spravovat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>always on top</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vždy navrchu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>all-in-one</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zařízení vše v jednom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>all-in-one</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>multifunkční zařízení (v případě tiskáren se skenerem)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>applet</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>applet</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>application</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>aplikace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>apply</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>použít</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>apply</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>uplatnit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>archive</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>archiv</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>argument (command line)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>argument</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>back</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zpět (prohlížeč)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>binary</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>binární soubor, dvojková/binární soustava</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>binary</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>dvojkový, binární</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>bitrate</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>datový tok (pro multimédia, např. údaj u MP3)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>bitrate</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>přenosová rychlost (pro komunikace, např. rychlost spojení přes modem)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>bold</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>tučné, tučně</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>bookmark</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>záložka</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>branch</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>větev</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>branch</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vývojová větev</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>browser</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>prohlížeč</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>buffer</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vyrovnávací paměť</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>bug report</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>oznámení o chybě</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>bugtracker / bug tracker</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>systém pro sledování chyb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>burn</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vypálit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>by default</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>standardně</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>by default</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>ve výchozím nastavení</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>byte</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>bajt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>cache</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>mezipaměť</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>cancel</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zrušit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>carrier</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>nosný signál (u sítí)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>clear</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vyčistit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>clear</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vymazat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>clear</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>smazat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>copy</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>kopírovat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>component</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>součást</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>concept</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>pojetí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>concept</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>pojem</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>configuration</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>nastavení</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>configure settings</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>upravit nastavení</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>console</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>konzole</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>context menu</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>kontextová nabídka</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>channel</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>kanál</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>close</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zavřít (okno)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>cluster</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>cluster, klastr</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>create</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vytvořit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>cursor</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>kurzor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>cut</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vyjmout</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>debug</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>ladit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>default</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>výchozí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>default</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>předem nastavený</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>default</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>standardní (= na obvyklé, běžné úrovni; ustálená míra, podoba něčeho)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>delete (file, bookmark...)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vymazat (soubor, záložku...)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>delete (file, bookmark...)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>smazat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>derivative</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>odvozenina</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>desktop</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>stolní počítač (typ počítače, např. ve vztahu k serveru)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>desktop</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>pracovní prostředí (GNOME, KDE apod.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>desktop</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>pracovní plocha, plocha (plocha s ikonami)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>deploy/deployment</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>nasadit/nasazení (učinit produkčním)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>device</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zařízení</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>directory</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>adresář</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>disable</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zakázat (zdroje softwaru), vypnout...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>display</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>displej (přesná terminologie v souvislosti s X serverem)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>display</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>obrazovka (obecný netechnický význam)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>display manager</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>správce displeje</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>do you want to...</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>přejete si...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>download</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>stáhnout</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>drag'n'drop, drag and drop, D'n'D</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>přetáhnout</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>dump</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>výpis, vypsat...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>demuxer</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>demultiplexer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;u&gt;E&lt;/u&gt;dit</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>&lt;u&gt;U&lt;/u&gt;pravit (jako běžné slovo i v nabídce)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>element</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>prvek</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>email</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>e-mail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>empty</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vyprázdnit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>empty</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vymazat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>enable</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>povolit, příp. zapnout či odblokovat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>encoder</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>kodér</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>exit code</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>návratový kód</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>factory</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>generátor (překlad pro běžného uživatele)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>factory</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>tovární třída (programátorský překlad)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>fallback</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>záloha</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>favorites</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>oblíbené</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>feature</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vlastnost</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>find (next)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>najít (další)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>file a bug report</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>podat oznámení o chybě</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>focus</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zaměření</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>focus</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zaměřit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>folder</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>složka</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>font</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>písmo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>fork</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>rozvětvení</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>forward</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vpřed (prohlížeč, opak "zpět")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>forward</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>další (průvodce instalací/wizard)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>forward</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>přeposlat (emailový klient, přeposlat zprávu)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>free software</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>svobodný software</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>getting started</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>začínáme</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>go</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>přejít</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>hardware</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>hardware [pozor na správné skloňování, 2. pád: hardwaru - nikoliv hardware]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>hardlink / hard link</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>pevný odkaz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>help</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>nápověda</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>hibernate</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>uspat na disk</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>hide</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>skrýt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>HOWTO ...</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Jak (na) ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>HOWTO ...</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Návod</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>hyperlink</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>hypertextový odkaz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>hyperlink</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>odkaz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>icon</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>ikona</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>input</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vstup</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>install</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>nainstalovat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>interface</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>rozhraní</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Internet</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>1. internet ''(propojené počítačové sítě)'' = komunikační prostředí globální počítačové sítě (Internetu); na tom založený celosvětový komunikační prostředek, médium: internet opět míří k výšinám; kdybych se narodil později, surfoval bych dnes taky na internetu; vyhledat údaje na internetu; stáhnout z internetu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Internet</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>2. Internet ''vlastní jméno (Celosvětová informační a komunikační síť)''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>insert</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vložit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>italic</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>kurzíva</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>keyboard shortcut / keyboard short-cut</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>klávesová zkratka</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>launcher</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>spouštěč</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>line</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>čára</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>line</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>řádek</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>line</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>řádka</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Loading, please wait... (?)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Načítá se, prosím čekejte</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>locale</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>lokalizace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>locale</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>národní prostředí (hovoří-li se obecně - o nastavení pro celý systém, uživatelský účet apod.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>log</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>protokol</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>log</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zapsat (zapisovat) do protokolu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>log off</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>odhlásit (se)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>login photo</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>přihlašovací fotografie</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>lower</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>odsunout do pozadí, do pozadí ''(okno)''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>live cd</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>spustitelné CD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>mailing list</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>poštovní konference</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>mailing list</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>e-mailová konference</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>mailing list</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>elektronická konference</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>mark</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>označit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>maximize (a window)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>maximalizovat (okno)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>menu</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>nabídka</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>metadata</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>metadata</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>minimize (a window)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>minimalizovat (okno)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>modified</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>změněno</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>monitor</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>monitor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>monitor</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>sledovat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>most easy</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>nejsnazší (podle PČP povoleno i ''nejsnadnější'', ale ''nejsnazší'' je dle vyhledávačů násobně používanější a zažitější v [písemných] sděleních)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>mount</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>připojit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>move (here)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>přesunout (sem)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>muxer</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>multiplexer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>name</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>název (souboru, počítače...)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>name</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>jméno (osoby)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>new...</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>nový...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>next</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>následující</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>non-free</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>nesvobodný</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>open</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>otevřít</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>open source software</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>software s otevřeným zdrojovým kódem</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>open source software</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>otevřený software</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>option</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>možnost</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>option</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>přepínač (obecně v příkazovém řádku)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>option</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>volba (command line option)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>overlay</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>překryv</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>package</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>balík</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>panel</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>panel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>parameter (command line)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>parametr</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>parse</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>analyzovat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>parser</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>syntaktický analyzátor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>partition</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>oddíl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>partitioning menu</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>nabídka pro rozdělení</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>paste</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vložit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>password</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>heslo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>permission</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>oprávnění</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>pin</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>''(n)'' připínáček</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>pin</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>''(v)'' připnout</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>plain text</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>prostý text</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>play (multimedia)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>přehrát</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>plugin / plug-in</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zásuvný modul</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>pointer</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>ukazatel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>policy</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zásada</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>preferences</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>''(obvykle v plurálu)'' předvolby</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>previous</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>předchozí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>program</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>program</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>prompt</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>příkazový řádek</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>properties</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>''(obvykle v plurálu)'' vlastnosti</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>quit</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>ukončit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>raise</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>přenést do popředí, do popředí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>really (Do you really want...)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>opravdu (Opravdu si přejete...)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>realm (Kerberos)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>sféra</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>region</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>oblast</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>release</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>''(software release)'' vydání</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>reload</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>obnovit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>remove</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>odstranit (soubor, aplikace)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>remove</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>odebrat (položku v seznamu)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>removable media</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>výměnná média</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>report</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>oznámit / oznámení</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>repository</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>repozitář</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>resource</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>prostředek</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>restricted formats</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vyhrazené formáty</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>revoke</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>odvolat (certifikát, klíč...)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>root</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>kořen ''(file system root, root directory)''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>root</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>root ''(konkrétní název účtu)''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>root</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>superuživatel ''(obecně účet s nejvyššími oprávněními)''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>screen</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>obrazovka</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>screensaver</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>šetřič obrazovky</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>server</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>server</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>session</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>sezení</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>settings</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>''(obvykle v plurálu)'' nastavení</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>setup</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>nastavení, nastavit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>sheet</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>list (např. v tabulkovém kalkulátoru)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>shell</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>shell</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>side- (bar, pane)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>postranní</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>skin</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>motiv vzhledu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>skip</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>přeskočit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>smart card / smartcard</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>čipová karta</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>smooth scroll</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>plynulé posouvání</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>snippet</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>úryvek</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>software</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>software (pozor na správné skloňování, 2. pád: softwaru - nikoliv software)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>software source</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zdroj softwaru</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>source</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zdroj, zdrojový kód</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>splash screen</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>spouštěcí obrazovka</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>stack</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zásobník</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>stream</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>proud</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>stream</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>datový proud</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>streaming</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>proudový přenos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>streaming</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>proudové vysílání</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>streaming video (audio, …)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>přenášené video (přenášený zvuk, …)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>streaming video (audio, …)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vysílané video (vysílaný zvuk, …)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>summary</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>shrnutí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>superuser</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>superuživatel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>suspend (to RAM)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>uspat do paměti</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>switch (command line)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>přepínač</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>system administrator</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>správce systému</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>tab</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>karta (v produktech Mozilly [http://lists.ubuntu.cz/pipermail/diskuze/2009-May/000533.html zůstává] ''panel'')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>tag</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>štítek (sémantika, např. v CMS)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>tag</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>značka (syntax, např. v HTML)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>terminal</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>terminál</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>theme</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>motiv</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>thumbnail</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>náhled</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>time zone</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>časové pásmo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>token</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>token</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>toolbar</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>nástrojová lišta</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>tooltip</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>vysvětlivka</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>unmark</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zrušit označení</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>unmount</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>odpojit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>update</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>aktualizovat / aktualizace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>upgrade</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>povýšení</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>upload</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>odeslat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>user interface</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>uživatelské rozhraní</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>username / user name</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>uživatelské jméno</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>view (View file)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zobrazit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>volume (audio)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>hlasitost</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>volume (hardware)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>svazek</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>website / web site</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>webové stránky</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>when getting started</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>zpočátku</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>wizard</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>průvodce</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>workbook</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>sešit (např. v MS Excel)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>worksheet</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>list (např. v MS Excel)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>zone (time zone)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>pásmo (časové pásmo)</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
