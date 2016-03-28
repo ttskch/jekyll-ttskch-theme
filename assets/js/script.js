@@ -9,6 +9,7 @@ $(function () {
     });
 
     // add `target="_blank"` into all outer links.
+/*
     var host = document.location.host;
     $("a[href]").each(function() {
         var re = new RegExp(host, "g");
@@ -16,6 +17,7 @@ $(function () {
             $(this).attr("target", "_blank");
         }
     });
+*/
 
     // center and linkable all images.
     var $images = $("article img:not(.emoji, .eye-catch)");

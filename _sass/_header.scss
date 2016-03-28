@@ -8,10 +8,6 @@
     }
 
     .avatar {
-        height: 3em;
-        width: 3em;
-        border: 3px solid rgba(#fff, .7);
-        border-radius: 1.5em;
         margin-right: 0.8em;
         float: left;
         @media screen and (max-width: $mobile-width) {
@@ -28,7 +24,7 @@
             display: inline-block;
             color: $site-title-color;
             font-weight: bold;
-            margin-top: 0.5em;
+            margin-top: 0.2em;
             &.slim {
                 margin-top: 0;
             }
@@ -38,7 +34,7 @@
         }
         .description {
             margin: 0;
-            font-size: 0.6em;
+            font-size: 0.5em;
             line-height: 1em;
             margin-top: 0.5em;
             color: lighten($site-title-color, 20%);
