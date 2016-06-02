@@ -2,10 +2,15 @@
 
 A simple and customizable theme for Jekyll.
 
+## Screen shot
+
+![image](https://cloud.githubusercontent.com/assets/4360663/15747309/1b7a8140-2915-11e6-858b-4d554a76f2dd.png)
+
 ## Features
 
 * A lot of Markdown features
 * GitHub flavored emoji :+1:
+* Easy color-scheme customization
 * Tags list page
 * Monthly Archives page
 * Search feature without any Jekyll plugins
