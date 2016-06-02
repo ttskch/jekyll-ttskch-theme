@@ -1,10 +1,10 @@
 #
 # Basic settings.
 #
-# url: http://localhost:4000
+# url: //localhost:4000
 # baseurl: ""
-url: http://qckanemoto.github.io
 baseurl: /jekyll-qck-theme
+url: //ttskch.github.io
 title: Your name
 description: Some descriptions of yourself.
 avatar: /assets/img/ogp.png
@@ -17,9 +17,9 @@ language: en
 icons:
   rss: true
   email:
-  github: qckanemoto
+  github: ttskch
   bitbucket:
-  twitter: qckanemoto
+  twitter: ttskch
   facebook:
   google_plus:
   tumblr:
@@ -27,11 +27,11 @@ icons:
   dribbble:
   flickr:
   instagram:
-  linkedin:  # full URL
+  linkedin: # full URL
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # full URL
+  stack_exchange: # full URL
   steam:
   wordpress:
   youtube:
@@ -73,10 +73,10 @@ paginate_path: page/:num
 #
 share_buttons:
   twitter: true
-  facebook: false   # needs ogp.fb.app_id
+  facebook: false # needs ogp.fb.app_id
   hatena: false
 ogp:
-  image_url: http://qckanemoto.github.io/jekyll-qck-theme/assets/img/ogp.png
+  image_url: //ttskch.github.io/jekyll-tch-theme/assets/img/ogp.png
   fb:
     admin: # facebook admin id
     app_id: # facebook application id

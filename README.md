@@ -18,7 +18,7 @@ A simple and customizable theme for Jekyll.
 
 ## Getting started
 
-1. [Fork me](https://github.com/qckanemoto/jekyll-qck-theme/fork)
+1. [Fork me](https://github.com/ttskch/jekyll-qck-theme/fork)
 2. Rename the repository from `jekyll-qck-theme` to `{username}.github.io` ([learn more](https://pages.github.com/))
 3. Modify `_config.yml`
 4. Modify `_sass/base/_variables.scss` if you need to change colors or font sizes
@@ -28,4 +28,4 @@ A simple and customizable theme for Jekyll.
 
 You can see live demo at below:
 
-* http://qckanemoto.github.io/jekyll-qck-theme/
+* https://ttskch.github.io/jekyll-qck-theme/
