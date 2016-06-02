@@ -1,9 +1,9 @@
 #
 # Basic settings.
 #
-# url: //localhost:4000
+# url: http://localhost:4000
 # baseurl: ""
-url: //ttskch.github.io
+url: https://ttskch.github.io
 baseurl: /jekyll-tch-theme
 title: Your name
 description: Some descriptions of yourself.
