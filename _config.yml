@@ -8,6 +8,8 @@ baseurl: /jekyll-tch-theme
 title: Your name
 description: Some descriptions of yourself.
 avatar: /assets/img/ogp.png
+# favicon: /favicon.ico
+favicon: /assets/img/ogp.png
 # language: ja
 language: en
 
