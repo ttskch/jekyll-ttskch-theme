@@ -34,3 +34,20 @@ A simple and customizable theme for Jekyll.
 You can see live demo at below:
 
 * https://ttskch.github.io/jekyll-tch-theme/
+
+## Thanks for using :wink:
+
+* http://ttskch.github.io
+* http://sitaramshelke.github.io
+* http://jffourmond.github.io
+* http://vbflash8.github.io
+* http://luqitao.github.io
+* http://harusametime.github.io
+* http://gitzxon.github.io
+* http://hutsonlu.github.io
+* http://k0-1.github.io
+* http://anthonygore.github.io
+* http://getjsdojo.github.io
+* http://georgezhuo.github.io
+
+Please PR if you want to add your blog.
