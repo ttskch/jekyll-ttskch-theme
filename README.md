@@ -8,8 +8,8 @@ A simple and customizable theme for Jekyll.
 
 ## Features
 
-* A lot of Markdown features
-* GitHub flavored emoji :+1:
+* A lot of Markdown features (also GitHub Flavored Markdown)
+* `:emoji:` ready :+1:
 * Easy color-scheme customization
 * Tags list page
 * Monthly Archives page
