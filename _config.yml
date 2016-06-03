@@ -3,7 +3,7 @@
 #
 # url: http://localhost:4000
 # baseurl: ""
-url: https://ttskch.github.io
+url: http://ttskch.github.io
 baseurl: /jekyll-tch-theme
 title: Your name
 description: Some descriptions of yourself.
