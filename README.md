@@ -2,7 +2,7 @@
 
 A simple and customizable theme for Jekyll.
 
-> This theme is renamed from _jekyll-**qck**-theme_ to _jekyll-**tch**-theme_ at 2016.06.02.
+> This theme was renamed from _jekyll-**qck**-theme_ to _jekyll-**tch**-theme_ at 2016.06.02.
 
 ## Screen shot
 
