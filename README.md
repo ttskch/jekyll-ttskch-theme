@@ -51,5 +51,6 @@ You can see live demo at below:
 * http://anthonygore.github.io
 * http://getjsdojo.github.io
 * http://georgezhuo.github.io
+* http://neontapir.github.io
 
 Please PR if you want to add your blog.
