@@ -6,7 +6,7 @@ A simple and customizable theme for Jekyll.
 
 ## Screen shot
 
-![image](https://cloud.githubusercontent.com/assets/4360663/15747309/1b7a8140-2915-11e6-858b-4d554a76f2dd.png)
+![image](https://cloud.githubusercontent.com/assets/4360663/18776176/62611b38-81a2-11e6-875b-86a66aa8f15c.png)
 
 ## Features
 
