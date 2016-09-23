@@ -6,6 +6,6 @@ order: 1
 share: false
 ---
 
-[TchTheme](https://github.com/ttskch/jekyll-tch-theme) is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+[TtskchTheme](https://github.com/ttskch/jekyll-ttskch-theme) is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
 
 Enjoy! :smiley:

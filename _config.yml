@@ -4,7 +4,7 @@
 # url: http://localhost:4000
 # baseurl: ""
 url: http://ttskch.github.io
-baseurl: /jekyll-tch-theme
+baseurl: /jekyll-ttskch-theme
 title: Your name
 description: Some descriptions of yourself.
 avatar: /assets/img/ogp.png
@@ -78,7 +78,7 @@ share_buttons:
   facebook: false # needs ogp.fb.app_id
   hatena: false
 ogp:
-  image_url: //ttskch.github.io/jekyll-tch-theme/assets/img/ogp.png
+  image_url: //ttskch.github.io/jekyll-ttskch-theme/assets/img/ogp.png
   fb:
     admin: # facebook admin id
     app_id: # facebook application id
