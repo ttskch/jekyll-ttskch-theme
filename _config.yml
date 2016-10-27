@@ -9,6 +9,7 @@ title: Překladatelská komunita L10N.cz
 description: Překládáme svobodný a otevřený software.
 avatar: /assets/img/logo.png
 language: cs
+favicon: /favicon.ico
 
 #
 # Icons
@@ -26,11 +27,11 @@ icons:
   dribbble:
   flickr:
   instagram:
-  linkedin:  # full URL
+  linkedin: # full URL
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # full URL
+  stack_exchange: # full URL
   steam:
   wordpress:
   youtube:
