@@ -19,7 +19,7 @@
 
     <meta name="description" content="{{ description }}">
 
-    <link rel="shortcut icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ site.favicon | prepend: site.baseurl }}" type="image/x-icon">
     <link rel="canonical" href="{{ url }}">
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl }}" />
 
@@ -42,7 +42,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/1f5f360d80.js"></script>
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet">
 
     <link href="{{ '/assets/css/style.css' | prepend: site.baseurl }}" rel="stylesheet">
@@ -58,7 +58,7 @@
         {% endif %}
         <h1 class="clearfix">
             <a class="title {% if site.avatar == null %}slim{% endif %}" href="{{ '/' | prepend: site.baseurl }}">{{ site.title }}</a>
-            <p class="description">{{ site.description }}</p>
+            <br><span class="description">{{ site.description }}</span>
         </h1>
     </div>
 </header>
@@ -107,7 +107,13 @@
             <div class="block sticky">
                 <h1>{{ site.str_recent_posts }}</h1>
                 <ul>
-                    {% assign posts = (site.posts | where: 'hide', null | sort: 'date' | reverse) %}
+                    {% assign posts = '' | split: '' %}
+                    {% for post in site.posts %}
+                    {% if post.hide != true %}
+                    {% assign posts = posts | push: post %}
+                    {% endif %}
+                    {% endfor %}
+                    {% assign posts = posts | sort: 'date' | reverse %}
                     {% for post in posts limit:site.recent_posts_num %}
                     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
                     {% endfor %}
@@ -123,7 +129,7 @@
 
 <footer class="site-footer">
     <div class="inner">
-        <span>Používá <a href="http://jekyllrb.com">Jekyll</a> a <a href="https://github.com/qckanemoto/jekyll-qck-theme">QckTheme</a>.
+        <span>Používá <a href="http://jekyllrb.com">Jekyll</a> a <a href="https://github.com/ttskch/jekyll-ttskch-theme">TtskchTheme</a>.
         <br/>Obsah stránky lze šířit za podmínek <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License</a>.
         <br/>Copyright © 2007&ndash;2016 L10N.cz.</span>
     </div>
