@@ -17,7 +17,7 @@ favicon: /favicon.ico
 icons:
   rss: true
   email: diskuze@lists.l10n.cz
-  github: pmkovar/l10ncz
+  github: l10ncz/l10ncz
   bitbucket:
   twitter:
   facebook:
