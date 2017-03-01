@@ -78,17 +78,17 @@ function showPosts(words, targets)
                     }
 
                     // matching.
-                    var matched = false;
+                    var matched = 0;
                     words.forEach(function (word) {
                         var regex = new RegExp(word, 'i');
                         if (searchee.match(regex) != null) {
-                            matched = true;
+                            matched = matched + 1;
                             return false;  // break;
                         }
                         return true;  // continue;
                     });
 
-                    if (matched) {
+                    if (matched == words.length) {
                         matchedPosts.push(post);
                     }
                 });
