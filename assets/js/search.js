@@ -35,7 +35,7 @@ function getQuery(keys)
         var matched;
         if (matched = window.location.search.match(regex)) {
             query = decodeURIComponent(matched[1]).replace(/(　| )+/g, ' ');
-            words = query.split(' ');
+            words = query.split('+');
             key = queryKey;
             return false;  // break;
         }
