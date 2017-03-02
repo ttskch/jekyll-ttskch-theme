@@ -78,11 +78,11 @@ function showPosts(words, targets)
                     }
 
                     // matching.
-                    var matched = false;
+                    var matched = true;
                     words.forEach(function (word) {
                         var regex = new RegExp(word, 'i');
-                        if (searchee.match(regex) != null) {
-                            matched = true;
+                        if (searchee.match(regex) == null) {
+                            matched = false;
                             return false;  // break;
                         }
                         return true;  // continue;
