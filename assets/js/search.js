@@ -34,7 +34,7 @@ function getQuery(keys)
         var regex = RegExp("[?&]" + queryKey + "=([^&]+)", 'i');
         var matched;
         if (matched = window.location.search.match(regex)) {
-            query = decodeURIComponent(matched[1]).replace(/(　| )+/g, ' ');
+            query = decodeURIComponent(matched[1]).replace(/(　| |\+)+/g, ' ');
             words = query.split(' ');
             key = queryKey;
             return false;  // break;
