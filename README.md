@@ -53,6 +53,7 @@ You can see live demo at below:
 * http://getjsdojo.github.io
 * http://georgezhuo.github.io
 * http://neontapir.github.io
+* https://sasukeh.github.io
 * https://blog.guilhermegarnier.com
 
 Please PR if you want to add your blog.
