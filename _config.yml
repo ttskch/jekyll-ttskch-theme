@@ -2,7 +2,7 @@
 # Basic settings.
 #
 # url: http://localhost:4000
-# baseurl: ""
+# baseurl: /
 url: http://ttskch.github.io
 baseurl: /jekyll-ttskch-theme
 title: Your name
