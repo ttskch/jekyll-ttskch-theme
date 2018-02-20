@@ -34,7 +34,7 @@ function getQuery(keys)
         var regex = RegExp("[?&]" + queryKey + "=([^&]+)", 'i');
         var matched;
         if (matched = window.location.search.match(regex)) {
-            query = decodeURIComponent(matched[1]).replace(/(　| )+/g, ' ');
+            query = decodeURIComponent(matched[1]).replace(/(　| |\+)+/g, ' ');
             words = query.split(' ');
             key = queryKey;
             return false;  // break;
@@ -78,11 +78,11 @@ function showPosts(words, targets)
                     }
 
                     // matching.
-                    var matched = false;
+                    var matched = true;
                     words.forEach(function (word) {
                         var regex = new RegExp(word, 'i');
-                        if (searchee.match(regex) != null) {
-                            matched = true;
+                        if (searchee.match(regex) == null) {
+                            matched = false;
                             return false;  // break;
                         }
                         return true;  // continue;
