@@ -84,6 +84,7 @@ ogp:
 #
 # Gems.
 #
+remote_theme: ttskch/jekyll-ttskch-theme
 gems:
   - jekyll-paginate
 
