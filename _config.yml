@@ -3,25 +3,23 @@
 #
 # url: http://localhost:4000
 # baseurl: ""
-url: http://ttskch.github.io
-baseurl: /jekyll-ttskch-theme
-title: Your name
-description: Some descriptions of yourself.
-avatar: /assets/img/ogp.png
-# favicon: /favicon.ico
-favicon: /assets/img/ogp.png
-# language: ja
-language: en
+url: http://www.l10n.cz
+baseurl: ""
+title: Překladatelská komunita L10N.cz
+description: Překládáme svobodný a otevřený software.
+avatar: /assets/img/logo.png
+language: cs
+favicon: /favicon.ico
 
 #
 # Icons
 #
 icons:
   rss: true
-  email:
-  github: ttskch
+  email: diskuze@lists.l10n.cz
+  github: l10ncz/l10ncz
   bitbucket:
-  twitter: ttskch
+  twitter:
   facebook:
   google_plus:
   tumblr:
@@ -52,12 +50,12 @@ disqus:
 #
 # Localizations.
 #
-str_next: Next
-str_prev: Prev
-str_read_more: Read more...
-str_search: Search
-str_recent_posts: Recent posts
-str_show_all_posts: Show all posts
+str_next: Následující
+str_prev: Předchozí
+str_read_more: Více...
+str_search: Hledat
+str_recent_posts: Nedávné příspěvky
+str_show_all_posts: Zobrazit všechny příspěvky
 
 #
 # Recent posts.
@@ -74,11 +72,11 @@ paginate_path: page/:num
 # Social.
 #
 share_buttons:
-  twitter: true
-  facebook: false # needs ogp.fb.app_id
+  twitter: false
+  facebook: false   # needs ogp.fb.app_id
   hatena: false
 ogp:
-  image_url: //ttskch.github.io/jekyll-ttskch-theme/assets/img/ogp.png
+  image_url:
   fb:
     admin: # facebook admin id
     app_id: # facebook application id
@@ -86,9 +84,9 @@ ogp:
 #
 # Gems.
 #
+remote_theme: ttskch/jekyll-ttskch-theme
 gems:
   - jekyll-paginate
-  - jemoji
 
 #
 # Styles: see "_sass/base/_variables.scss"
@@ -117,3 +115,4 @@ exclude:
   - LICENSE
   - README.md
   - vendor
+  - assets/l10n-slovnik

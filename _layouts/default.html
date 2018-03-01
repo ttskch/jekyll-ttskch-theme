@@ -75,6 +75,26 @@
                     <input type="search" id="search" name="q" placeholder="{{ site.str_search }}" />
                 </form>
             </div>
+            <h1>L10N.cz Wiki</h1>
+            <ul>
+                <li><a href="http://wiki.l10n.cz">L10N.cz Wiki</a></li>
+                <li><a href="http://wiki.l10n.cz/Hlášení_chyb_v_překladech">Hlášení chyb v překladech</a></li>
+                <li><a href="http://wiki.l10n.cz/Překladatelský_slovník">Překladatelský slovník L10N</a></li>
+                <li><a href="http://wiki.l10n.cz/Překladatelské_slovníky">Slovníky překladatelských projektů</a></li>
+                <li><a href="http://wiki.l10n.cz/Překladatelské_týmy">Týmy překladatelů</a></li>
+                <li><a href="http://wiki.l10n.cz/Související_projekty">Související projekty</a></li>
+                <li><a href="http://wiki.l10n.cz/Návody_pro_překladatele">Návody pro překladatele</a></li>
+                <li><a href="http://wiki.l10n.cz/Pomůcky_pro_překladatele">Pomůcky pro překladatele</a></li>
+            </ul>
+            <h1>E-mailová konference</h1>
+            <ul>
+                <li><a href="http://lists.l10n.cz/mailman/listinfo/diskuze">E-mailová konference</a></li>
+            </ul>
+            <h1>On-line diskuze</h1>
+            <ul>
+                <li><a href="https://riot.im/app/#/room/#l10ncz:matrix.org">On-line diskuze</a></li>
+            </ul>
+            <h1>Další</h1>
             <ul>
                 {% assign pages = (site.pages | sort: 'order') %}
                 {% for page in pages %}
@@ -102,6 +122,10 @@
                     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
                     {% endfor %}
                 </ul>
+                <div style="margin: auto">
+                    <a href="http://pocitadlo.abz.cz/" title="počítadlo přístupů: pocitadlo.abz.cz">
+                    <img style="border-style: none" src="http://pocitadlo.abz.cz/aip.php?tp=bo" alt="počítadlo.abz.cz" /></a>
+                </div>
             </div>
         </div>
     </aside>
@@ -109,7 +133,9 @@
 
 <footer class="site-footer">
     <div class="inner">
-        <span>Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://github.com/ttskch/jekyll-ttskch-theme">TtskchTheme</a></span>
+        <span>Používá <a href="http://jekyllrb.com">Jekyll</a> a <a href="https://github.com/ttskch/jekyll-ttskch-theme">TtskchTheme</a>.
+        <br/>Obsah stránky lze šířit za podmínek <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+        <br/>Copyright © 2007&ndash;2016 L10N.cz.</span>
     </div>
 </footer>
 
