@@ -76,7 +76,7 @@
                 </form>
             </div>
             <ul>
-                {% assign pages = (site.pages | sort: 'order') %}
+                {% assign pages = site.pages | sort: 'order' %}
                 {% for page in pages %}
                 {% if page.title and page.hide != true %}
                 <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
