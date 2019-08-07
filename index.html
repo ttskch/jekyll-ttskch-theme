@@ -3,11 +3,6 @@ layout: default
 ---
 
 {% for post in paginator.posts %}
-
-{% if post.hide == true %}
-{% continue %}
-{% endif %}
-
 <div class="article-wrapper">
     <article>
     {% include article-header.html page=post link=true %}
@@ -26,7 +21,6 @@ layout: default
 {% if forloop.last != true %}
 <hr/>
 {% endif %}
-
 {% endfor %}
 
 {% include paginator.html %}
