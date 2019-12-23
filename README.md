@@ -55,5 +55,6 @@ You can see live demo at below:
 * http://neontapir.github.io
 * https://sasukeh.github.io
 * https://blog.guilhermegarnier.com
+* https://muras.eu
 
 Please PR if you want to add your blog.
